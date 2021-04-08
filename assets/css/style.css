@@ -1,0 +1,560 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: "Microsoft Yahei","PingFang SC",sans-serif,sans-serif,"Heiti SC","Helvetica Neue","Helvetica","Arial";
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+.navbar .megamenu{ 
+    padding: 1rem;
+    background:white !important;
+}
+.dropdown-menu{
+    
+    
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+.navtext{
+    font-size: 16px;
+}
+.flexslider{
+    height: fit-content;
+    margin-bottom: 0;
+    border: none;
+}
+.jumbotron{
+    height: 760px;
+    
+    position: relative;
+    margin-bottom: 0;
+    width: 100%;
+}
+.jumbo-first{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-banner1.jpg) no-repeat center;
+}
+.jumbo-sec{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/banner2.jpg) no-repeat center top;
+}
+.jumbo-thi{
+    background:url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/index-banner3.jpg) no-repeat center top ;
+}
+.mainBox{
+    padding-top: 270px;
+    margin: 0 auto;
+    width: 1360px;
+}
+.mainBox h1{
+    font-size: 60px;
+}
+.mainBox p{
+    font-size: 22px;
+    margin-top: 8px;
+}
+.mainBox button{
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.mainButton1{
+    margin-right: 30px;
+    background-color: #C19B5D;
+    border: none;
+}
+.mainButton2{
+    border:1px solid #163029 ;
+    background-color: transparent;
+    color: #163029;
+}
+.jumbo-thi .mainBox h1,.jumbo-thi .mainBox  p{
+    color: white;
+}
+.jumbo-thi .mainButton2{
+    border: 1px solid white;
+    color: white;
+}
+.mainBottom{
+    position: absolute;
+    bottom: 30px;
+    width: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: block;
+}
+.mainBottom li{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: #ffffff solid 1px;
+    position: relative;
+    margin: 0 6px;
+}
+.mainBottom li a{
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: block; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto;
+}
+.secContent{
+    width: 100vw;
+    text-align: center;
+    
+    position: relative;
+}
+.secBox{
+    margin: 0 auto;
+    padding-top: 70px;
+    padding: 0,40px;
+    z-index: 1000;
+    
+    max-width: 1440px;
+    position: relative;
+}
+.secDecoration{
+    width: 100%;
+    height: 410px;
+    background-color: #f6f6f6;
+    position: absolute;
+}
+.secBox h3{
+    font-size: 20px;
+}
+.secBox hr{
+    margin-top: 30px;
+    width: 30px;
+    height: 2px;
+    background-color: #163029;
+}
+.secBox p{
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 14px;
+    margin-bottom:50px;
+    width: 860px;
+    line-height: 1.8;
+}
+.img-container{
+    position: relative;
+    overflow: hidden;
+    width: 1360px;
+}
+.img-container img{
+    transition: 386ms;
+}
+.img-container:hover img{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.img-container:hover .video-icon{
+    cursor: pointer;
+}
+.video-icon{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/bot-playico.png!/lossless/true) no-repeat center center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.thiContainer{
+    width: 100vw;
+    height: 820px;
+    text-align: center;
+}
+.thiContent{
+    max-width: 1440px;
+    padding: 0 40px;
+    margin: 0 auto;
+    margin-top: 70px;
+    
+}
+.series-list{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    margin-top: 20px;
+}
+
+.switch-pagination img{
+    padding-bottom:20px;
+}
+.series-name{
+    font-weight: 300;
+    font-size: 14px;
+}
+.series-display{
+    
+    margin-top: 50px;
+    height: 560px;
+    color: white;
+    
+}
+#series-BAR{
+    
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img1.jpg') no-repeat center top;
+}
+#series-LS{
+    display: block;
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img2.jpg') no-repeat center top;
+}
+#series-DD{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img3.jpg') no-repeat center top;
+}
+#series-PK{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img4.jpg') no-repeat center top;
+}
+#series-DS{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img5.jpg') no-repeat center top;
+}
+#series-GS{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img6.jpg') no-repeat center top;
+}
+#series-BS{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img7.jpg') no-repeat center top;
+}
+#series-C{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img10.jpg') no-repeat center top;
+}
+#series-TM{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img8.jpg') no-repeat center top;
+}
+#series-CM{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/inb3-img9.jpg') no-repeat center top;
+}
+.Bar-dis{
+    height: 100%;
+    width: 100%;
+    display: none;
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 100px;
+}
+.Bar-dis img{
+    height: 63px;
+}
+.Bar-dis p{
+    margin-top: 20px;
+}
+.btn-enter{
+    width: 200px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: transparent;
+    border: white solid 1px;
+}
+.product-layout{
+    text-align: center;
+    width: 100%;
+    
+}
+.product-container{
+    max-width: 1440px;
+    
+    margin: 0 auto;
+}
+.product-container h3{
+    font-size: 20px;
+}
+.product-img-list{
+    padding: 0 40px;
+    margin: 0 0;
+}
+.rings{
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-index3.png!/lossless/true') no-repeat center top;
+    max-width: 670px;
+    height: 670px;
+    
+    position: relative;
+    
+}
+.rings p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 1000;
+}
+.rings p:nth-child(1){
+    bottom: 50px;
+}
+.rings p:nth-child(2){
+    bottom: 20px;
+}
+.product-img-item-col2{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.product-img-item-col3{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    
+}
+.product-img-item-col3 p, .product-img-item-col2 p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.product-img-item-col3 p:nth-child(1), .product-img-item-col2 p:nth-child(1){
+    bottom: 50px;
+    color: #163029;
+}
+.product-img-item-col3 p:nth-child(2), .product-img-item-col2 p:nth-child(2){
+    bottom: 20px;
+    color: #C19B5D;
+}
+.product-img-item-col2:nth-child(1){
+    margin-bottom: 10px;
+    
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-index7.jpg!/lossless/true') no-repeat center top;
+}
+.product-img-item-col2:nth-child(2){
+    
+    background:url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-index4.jpg!/lossless/true') no-repeat center top ;
+}
+.product-img-item-col3:nth-child(1){
+    margin-bottom: 10px;
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-index5.jpg!/lossless/true') no-repeat center top;
+}
+.product-img-item-col3:nth-child(2){
+    background: url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-index6.jpg!/lossless/true') no-repeat center top;
+}
+.hover-product{
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22,48,41, 0.5);
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+}
+.subtleSizing{
+    height: 96.5%;
+    width: 95%;
+    margin-left: 10px;
+}
+.hover-icon{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    
+    background: #ffffff url('https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/goumai.png!/lossless/true') no-repeat center center;
+    z-index: 1000;   
+}
+.product-hover-effect > .hover-product{
+    transition: visibility 0s, opacity 0.3s linear;
+}
+.product-hover-effect:hover > .hover-product{
+    visibility: visible;
+    opacity: 1;
+}
+.product-hover-effect:hover > p{
+    color: white;
+}
+.last-layout{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.last-container{
+    width: 1440px;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    padding: 0 40px;
+}
+.last-item{
+    max-width: 670px;
+    height: 100%;
+    width: 670px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.last-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 1rem auto;
+}
+.last-first{
+    
+}
+.last-second{
+    margin-left: 30px;
+    
+}
+.last-icon{
+    width: 50px;
+    height: 50px;
+    
+    
+}
+.last-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    background-size: contain;
+    background-position: center;
+    transition: 386ms;
+    
+}
+.last-first .last-background{
+    background:url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/bot-img1.jpg!/lossless/true) ;
+}
+.last-second .last-background{
+    background:url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/bot-img2.jpg!/lossless/true);
+}
+
+.last-line{
+    width: 1px;
+    background: white;
+    margin: 10px auto 0px;
+    height: 0px;
+    transition: 386ms;
+    
+}
+.last-first .last-icon{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/link-ico1.png!/lossless/true) no-repeat center center;
+}
+.last-second .last-icon{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/link-ico2.png!/lossless/true) no-repeat center center;
+}
+.last-item:hover> .last-background{
+    transform: scale(1.08);
+}
+.last-item:hover .last-line{
+    height: 30px;
+}
+
+footer> div:nth-child(1){
+    height: 400px;
+   padding:0 40px;
+}
+footer a.btn{
+    
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+footer a>i{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: auto;
+}
+footer div h5{
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+footer div ul li{
+    margin-bottom: 25px;
+    
+}
+footer div.row>div{
+    
+}
+
