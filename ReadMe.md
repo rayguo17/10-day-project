@@ -40,4 +40,4 @@ Here are some feature my website have:
 - Last but not least, some hover effect need to be removed/changed on a mobile device, because there has no 'hover' when using mobile.
 - So, instead of intergrating `@media screen` to index.html, i let it redirect to mobile.html which is design for website when the screen width is smaller than 992px
 
-![Image of mobile version](./assets/img/mobile.png)
+![Image of mobile version](./assets/img/newMobile.png)

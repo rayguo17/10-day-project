@@ -87,8 +87,28 @@ table {
 }
 .mainBox{
     width: 100%;
-    height: 18rem;
+    height: 18rem; 
+    padding-top: 20%;   
 }
+.mainBox .mainButton1{
+    background-color: #c19b5d;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+}
+.mainBox .mainButton2{
+    background-color: transparent;
+    border: #163029 solid 1px;
+    border-radius: 20px;
+    color: #163029;
+    width: 150px;
+}
+.mainBox h1{
+    font-size: 30px;
+}
+/* responsive */
+
 .main1{
     background-image: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/pc-banner1.jpg);
     background-size: cover;
@@ -110,6 +130,101 @@ table {
     background-position-x: center;
     background-position-y: top;
 }
+
 .mobile-img{
-    width: 400px;
+    width: 80%;
+    /* responsive */
+}
+
+.secContent{
+    width: 100vw;    
+    background-color: #f6f6f6;    
+}
+h3{
+    color: #163029;
+    font-size: 20px;
+}
+.secBox hr{
+    width: 40px;
+    height: 1px;
+    background-color:#163029 ;
+}
+.secBox p{
+    color: #757978;
+    line-height: 1.6;
+}
+
+
+.swiper2 .card-body{
+    background-color: #163029;
+    color: #FFFFFF99;
+}
+.swiper2 .card-body p{
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+.swiper2 .card-body img{
+    height: 40px;
+}
+.swiper2 .card-body button{
+    background: transparent;
+    border: #828282 solid 1px;
+    width: 150px;
+    color: #828282;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.last1{
+    background:url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/bot-img1.jpg!/lossless/true) ;
+    height: 35vh;
+    position: relative;
+}
+.last1 .lastIcon{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/link-ico1.png!/lossless/true) no-repeat center center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.last .card-body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.last2{
+    background:url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/bot-img2.jpg!/lossless/true) ;
+    height: 35vh;
+    position: relative;
+}
+.last2 .lastIcon{
+    background: url(https://static.westarcloud.com/5e7d8fbef9ad9000233edc3f/images/link-ico2.png!/lossless/true) no-repeat center center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.accordion{
+    
+    width: 100%;
+}
+.bg-default{
+    background-color: #163029 !important;
+    color: white !important;
+}
+footer a{
+    color: white;
+}
+
+
+a.bg-default:hover, a.bg-default:focus,
+button.bg-default:hover,
+button.bg-default:focus {
+  background-color: #1d2124 !important;
+}
+footer li{
+    padding-bottom: 3px;
 }
