@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: "Microsoft Yahei","PingFang SC",sans-serif,sans-serif,"Heiti SC","Helvetica Neue","Helvetica","Arial";
-    
+    width: 100vw;
 }
 ol, ul {
 	list-style: none;
@@ -209,6 +209,7 @@ table {
     position: relative;
     overflow: hidden;
     width: 1360px;
+    margin: 0 40px;
 }
 .img-container img{
     transition: 386ms;
@@ -554,7 +555,6 @@ footer div ul li{
     margin-bottom: 25px;
     
 }
-footer div.row>div{
+@media (max-width:1024px){
     
 }
-

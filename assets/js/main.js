@@ -71,6 +71,15 @@ $(window).on('load',function () {
         });
     
     }
+    $(window).on('resize', function () {
+        
+        if ($(window).width()<992) {
+            console.log('hello')
+            location.replace('./mobile.html')
+        }
+    })
+    
+    
 
 
 });
